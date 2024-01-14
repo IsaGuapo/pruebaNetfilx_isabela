@@ -18,4 +18,6 @@ export class MovieSearchComponent {
         this.searchResults = data;
       });
   }
+
+  
 }

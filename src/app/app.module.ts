@@ -4,12 +4,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { MovieSearchComponent } from './components/movie-search/movie-search.component';
+import { LoginComponent } from './components/login./login..component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MovieSearchComponent
+    MovieSearchComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
